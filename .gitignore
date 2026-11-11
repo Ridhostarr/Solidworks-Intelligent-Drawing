@@ -1,0 +1,23 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+config.local.*
+
+# Company CAD data, templates, generated drawings and binary macros
+*.[sS][lL][dD][pP][rR][tT]
+*.[sS][lL][dD][aA][sS][mM]
+*.[sS][lL][dD][dD][rR][wW]
+*.[dD][rR][wW][dD][oO][tT]
+*.[sS][lL][dD][dD][rR][tT]
+*.[pP][dD][fF]
+*.[sS][wW][pP]
+~$*
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
